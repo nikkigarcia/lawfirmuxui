@@ -1,0 +1,125 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Abel', sans-serif; */
+p{
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+/* nav */
+.nav-bar{
+    background-color: aqua;
+    height: 100px;
+}
+ul{
+    margin-top:40px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    border: 5px solid;
+    border-radius: 10px;
+}
+a{
+    color: white;
+    font-weight: bolder;
+}
+li:hover, a:hover { 
+    background-color: black;
+  }
+.logo{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+h6{
+    margin-left: 24px;
+}
+.desc{
+    margin-bottom: 100px;
+    font-size: 36px;
+}
+/* End Nav */
+/* Header */
+header{
+    height: 400px;
+    background-image:url(https://cdn.pixabay.com/photo/2016/09/12/11/22/rainbow-1663546_960_720.png);
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+}
+/* End Header */
+/* Start Main */
+.info{
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    color: aqua;
+}
+.strategy{
+    height:300px;
+    width:300px;
+    margin-left: 100px;
+}
+.wireframe{
+    height: 200px;
+    width:150px;
+}
+.color{
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+}
+li{
+    font-family: 'Abel', sans-serif; 
+}
+/* End Main */
+/* Start Contact */
+.bdg{
+    background-color: darkgrey;
+}
+.btn{
+    background-color: aqua;
+    border-radius: 20px;
+}
+.map{
+    margin-left: 100px;
+}
+.text-shadow{
+    text-shadow: 2px 2px black;
+}
+/* End contact */
+
+/* Start Footer */
+.footer{
+    height: 100px;
+    background-color: aqua;
+    margin-top: 10px;
+}
+.review{
+    font-size: 20px;
+}
+/* End Footer */
+.bblack{
+    background-color: black;
+}
+.white{
+    color: white;
+}
+.aqua{
+    color: aqua;
+}
+.darkgray{
+    border: 1px solid darkgrey;
+}
