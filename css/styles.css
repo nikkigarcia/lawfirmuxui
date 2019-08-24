@@ -1,5 +1,6 @@
 /* font-family: 'Anton', sans-serif;
 font-family: 'Abel', sans-serif; */
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -27,7 +28,7 @@ p{
 /* nav */
 .nav-bar{
     background-color: aqua;
-    height: 100px;
+    height: 20%;
 }
 ul{
     margin-top:40px;
@@ -35,15 +36,17 @@ ul{
 li{
     list-style-type: none;
     display: inline;
-    padding: 20px;
-    margin: 20px;
+    margin: 10px;
     color: white;
     border: 5px solid;
     border-radius: 10px;
+    text-align: center;
 }
 a{
     color: white;
     font-weight: bolder;
+    font-size: 24px;
+
 }
 li:hover, a:hover { 
     background-color: black;
@@ -90,7 +93,7 @@ h2{
 .strategy{
     height:300px;
     width:300px;
-    margin-left: 100px;
+    margin-left: 10%;
 }
 .wireframe{
     height: 200px;
@@ -114,16 +117,18 @@ li{
     border-radius: 20px;
 }
 .map{
-    margin-left: 100px;
+    margin: 10%;
+    padding: 10%;
 }
 .text-shadow{
     text-shadow: 2px 2px black;
 }
+
 /* End contact */
 
 /* Start Footer */
 .footer{
-    height: 100px;
+    height: 20%;
     background-color: aqua;
     margin-top: 10px;
 }
@@ -143,3 +148,32 @@ li{
 .darkgray{
     border: 1px solid darkgrey;
 }
+
+
+/* For desktop: */
+/* .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) { */
+  /* For mobile phones: */
+  /* [class*="col-"] {
+    width: 100%;
+  }
+}
+@media(max-width: 768px){
+    li{
+        height:20px;
+        width: 20px;
+        font-size: 12px;
+    }
+} */ 

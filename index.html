@@ -15,22 +15,24 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;Top</button>
     <div class="container-fluid">
         <!-- Start Nav -->
-        <nav class="row nav-bar">
-            <div class="col">
-                <img class="logo" src="img/uxuilogo.jpg" alt="law symbol">
-                <h6>LDC</h6>
-            </div>
-            <div class="col">
-                <ul>
-                    <li><a href="#ux">What is UX</a></li>
-                    <li><a href="#ui">What is UI</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
+        <nav class="container-fluid nav-bar">
+            <div class="row">
+                <div class="col-3">
+                    <img class="logo" src="img/uxuilogo.jpg" alt="law symbol">
+                    <h6>LDC</h6>
+                 </div>
+                <div class="col-9">
+                    <ul class="row">
+                        <li class="col"><a href="#ux">What is UX</a></li>
+                        <li class="col"><a href="#ui">What is UI</a></li>
+                        <li class="col"><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <!-- End Nav -->
         <!-- Header -->
-        <header class="row">
+        <header class="container-fluid">
             <div class="col-12">
                 <h1>Lawinforma Design Company</h1>
             </div>
@@ -84,7 +86,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 darkgray">
+                        <div class="col- darkgray">
                             <form>
                                 <h2 class="text-shadow">Contact Form</h2>
                                 <div class="form-group">
@@ -112,7 +114,7 @@
                                 <p class="text-center" id="fine-print">All fields marked <span>*</span> are mandatory.</p>
                             </form>
                         </div>
-                        <div class="col-6">
+                        <div class="col-">
                             <h2 class="text-shadow">Lawinforma Design Company</h2>
                             <p>123 Fulton St</p>
                             <p>Fresno, CA 93721</p>
@@ -124,24 +126,25 @@
             </div>
         <!-- End Contact -->
         <!-- Start Footer -->
-        <footer class="row footer">
-            <div class="col-4">
-                <p>Need help building your website?</p><br>
-            </div>
-            <div class="col-4">
-                <p>Contact Us at:(559) 123-4567</p>
-            </div>
-            <div class="col-4">
-               <div>
+        <footer class="container-fluid footer">
+            <div class="row">
+                <div class="col-4">
+                    <p>Need help building your website?</p><br>
+                </div>
+                <div class="col-4">
+                    <p>Contact Us at:(559) 123-4567</p>
+                </div>
+               <div class="col-4">
                    <p class="review">"I used Lawinforma to create my website<br>and my customer base has doubled!"<br>
                     - John Doe</p>
                </div> 
             </div>
-            
         </footer>
         <!-- End Footer -->
-        <div class="row bblack">
-            <p class="white">&copy; 2019 All rights reserved Lawinforma</p>
+        <div class="container-fluid">
+            <div class="row bblack">
+                <p class="white col-12">&copy; 2019 All rights reserved Lawinforma</p>
+            </div>
         </div>
     </div>
     <script src="js/scripts.js"></script>
